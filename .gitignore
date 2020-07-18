@@ -1,0 +1,7 @@
+build/**/*
+zspt.egg-info/**/*
+.idea/**/*
+tests/**/*
+data/**/*
+dist/**/*
+exp.py
