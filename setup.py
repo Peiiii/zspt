@@ -54,9 +54,13 @@ setuptools.setup(
     url="https://github.com/Peiiii/zspt",
     install_requires=[
         'wkweb',
-        'fire'
+        'fire',
+        'wpkit2',
+        'sqlalchemy',
+        'pymysql'
     ],
-    packages=setuptools.find_packages(),
+    # packages=setuptools.find_packages(),
+    packages=['zspt'],
     package_dir={'zspt': 'zspt'},
     entry_points={
         'console_scripts': [
